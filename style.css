@@ -96,3 +96,31 @@ img{
     font-size: 14px;
     color: blue;
   }
+@media screen and (max-width: 420px){
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    display: inline-block;
+    width: 100%;
+    margin:0 auto;
+    text-align: left;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 420px){
+#steps h1 {
+  text-align: left;
+  font-size:16px;
+  color: red;
+  }
+}
+@media screen and (max-width: 420px){
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 100%;
+  text-align: left;
+  }
+}
