@@ -67,21 +67,31 @@ img{
 }
 
 /*query*/
+
 @media screen and (max-width: 420px){
-  #lezioni{
-    text-align: left;
-    display: inline-block;
-  }
-/*@media screen and (max-width: 420px){
   #lezioni .row > .left, #lezioni .row > .right{
     float: none;
     text-align: left;
   }
+}
 
-}*/
 @media screen and (max-width: 420px){
   #lezioni img{
+    display: inline-block;
     width: 30%;
     margin: 0 auto;
+    text-align: left;
   }
 }
+@media screen and (max-width: 420px){
+  #lezioni h1{
+    text-align: left;
+    font-size: 16px;
+    color: red;
+  }
+}
+@media screen and (max-width: 420px){
+  #lezioni h3{
+    font-size: 14px;
+    color: blue;
+  }
